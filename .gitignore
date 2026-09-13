@@ -29,6 +29,9 @@ runs/
 !sample_video.mp4
 temp_*.mp4
 
+# --- Test/scratch folders ---
+Test_Folder/
+
 # --- OS / Editor junk ---
 .DS_Store
 Thumbs.db
