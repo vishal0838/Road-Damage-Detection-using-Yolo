@@ -1,0 +1,42 @@
+# --- Secrets (CRITICAL: never commit these) ---
+.streamlit/secrets.toml
+
+# --- Python virtual environment ---
+venv/
+env/
+ENV/
+
+# --- Python cache/bytecode ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Model files (often large; consider Git LFS if you do want to track them) ---
+*.pt
+*.onnx
+
+# --- Datasets (large, should not be pushed to GitHub) ---
+*.zip
+data_fixed.yaml
+data_fixed_local.yaml
+rdd2022_local/
+road_damage_project/
+runs/
+
+# --- Temp files created by the app ---
+*.mp4
+!sample_video.mp4
+temp_*.mp4
+
+# --- OS / Editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Jupyter checkpoints (if you used any notebooks locally) ---
+.ipynb_checkpoints/
+
+# --- Logs ---
+*.log
