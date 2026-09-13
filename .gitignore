@@ -29,6 +29,9 @@ runs/
 !sample_video.mp4
 temp_*.mp4
 
+# --- Environment variables ---
+.env
+
 # --- Test/scratch folders ---
 Test_Folder/
 
