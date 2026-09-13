@@ -14,6 +14,7 @@ __pycache__/
 
 # --- Model files (often large; consider Git LFS if you do want to track them) ---
 *.pt
+!best.pt
 *.onnx
 
 # --- Datasets (large, should not be pushed to GitHub) ---
